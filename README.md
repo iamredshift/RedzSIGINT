@@ -18,32 +18,48 @@ Make a good guide for this
 Quick Notes:
 Bellow is some hard coded paths. Until I get the install.sh script working 100%, just make sure your file paths match or change them so they fit your system.
 
-# IMSI CATCHER CONFIG
+IMSI CATCHER CONFIG
+
 SMQUEUE_BIN = "/OpenBTS/smqueue"
+
 SIPAUTHSERVER_BIN = "/OpenBTS/sipauthserve"
+
 OPENBTS_BIN = "/OpenBTS/OpenBTS"
+
 OPENBTSCLI_BIN = "/OpenBTS/OpenBTSCLI"
+
 FREESWITCH_BIN = "/usr/bin/freeswitch"
 
-# ANALYZE SIGNAL CONFIG
+ANALYZE SIGNAL CONFIG
+
 GNU_RADIO_COMPANION_BIN = "/usr/local/bin/gnuradio-companion"
+
 SIGNALS_OF_INTREST_GRCS_DIR = "/home/sigintjeep/SoI/"
 
-# ANALYZE SIGNAL FILE NAMES
+ANALYZE SIGNAL FILE NAMES
+
 CAPTURE_SOI_FILENAME = 'CaptureSoI.grc'
+
 DEMOD_SOI_FILENAME = 'SimpleAMDemodulation.grc'
+
 BASIC_ANALYZE_SOI_FILENAME = 'RewiewSoIWithNoise.grc'
+
 DOWNSAMPLE_SOI_FILENAME = 'TwoStageDownsample.grc'
+
 CLOCK_RECOVERY_SOI_FILENAME = 'ClockRecoveryPoC.grc'
+
 REPLAY_SOI_FILENAME = 'ReplaySoI.grc'
 
-# Freq Jammer Config
+Freq Jammer Config
+
 FREQ_JAMMER_FILE_DIR = '/home/sigintjeep/'
 
-# Freq Jammer Files
+Freq Jammer Files
+
 FREQ_JAMMER_CELL_ATANDT_FILENAME = 'CellJammerATANDT.py'
 
-# IOT Config Files
+IOT Config Files
+
 IOT_FILE_DIR = '/home/sigintjeep/.scapy/radio/'
 
 Thank You:
